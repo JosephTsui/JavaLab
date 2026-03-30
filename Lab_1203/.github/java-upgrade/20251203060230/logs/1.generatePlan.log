@@ -1,0 +1,7 @@
+2025-12-03T06:02:38.466Z [INFO] Initializing project configuration...
+2025-12-03T06:02:38.471Z [INFO] Project c:\Users\000113\source\JavaLab\Lab_1203 is not a maven project, try to get java version from gradle
+2025-12-03T06:02:38.495Z [INFO] Try to get java version from gradle config files: 
+2025-12-03T06:02:38.501Z [INFO] Try to get java version from gradle properties: undefined
+2025-12-03T06:02:38.505Z [INFO] Project java version: 8
+2025-12-03T06:02:38.509Z [ERROR] Unsupported project type: undefined. only Maven, Maven Wrapper and Gradle Wrapper project is supported.
+2025-12-03T06:02:38.513Z [ERROR] Failed to prepare project configuration or init upgrade options: Unsupported project type: undefined. only Maven, Maven Wrapper and Gradle Wrapper project is supported. Please choose a valid supported project.
