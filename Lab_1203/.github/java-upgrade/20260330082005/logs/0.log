@@ -789,3 +789,192 @@
   "message": "Event 'testCompleted' reported!\nSession ID: 20260330082005,\nSession Dir: c:\\Users\\000113\\source\\JavaLab\\Lab_1203\\.github\\java-upgrade\\20260330082005"
 }}).
 2026-03-30T08:35:27.676Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-30T08:48:52.500Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-30T08:48:52.502Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "details": {
+    "commitId": "6695d18",
+    "stepNumber": 4,
+    "stepTitle": "Final Validation"
+  },
+  "event": "upgradeValidationCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:48:52.503Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T08:48:52.505Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-30T08:48:52.507Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-30T08:48:52.617Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-30T08:48:52.621Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "details": {
+    "commitId": "6695d18",
+    "stepNumber": 4,
+    "stepTitle": "Final Validation"
+  },
+  "event": "upgradeValidationCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:48:52.624Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:48:52.627Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeValidationCompleted' reported!\nSession ID: 20260330082005,\nSession Dir: c:\\Users\\000113\\source\\JavaLab\\Lab_1203\\.github\\java-upgrade\\20260330082005"
+}}).
+2026-03-30T08:48:52.629Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-30T08:48:58.950Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-30T08:48:58.953Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planExecutionCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:48:58.956Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T08:48:58.958Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-30T08:48:58.960Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-30T08:48:59.028Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-30T08:48:59.030Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "planExecutionCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:48:59.032Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:48:59.868Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planExecutionCompleted' reported!\nSession ID: 20260330082005,\nSession Dir: c:\\Users\\000113\\source\\JavaLab\\Lab_1203\\.github\\java-upgrade\\20260330082005"
+}}).
+2026-03-30T08:48:59.871Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-30T08:49:48.515Z [INFO] ---------------------prepare appmod-validate-cves-for-java----------------------
+2026-03-30T08:49:48.517Z [INFO] [Tool.prepareInvocation]({name: appmod-validate-cves-for-java, input: {
+  "dependencies": [
+    "junit:junit:4.13.2"
+  ],
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005"
+}}).
+2026-03-30T08:49:48.518Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T08:49:48.520Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Validate CVEs"
+}}).
+2026-03-30T08:49:48.522Z [INFO] ----------------------prepared appmod-validate-cves-for-java----------------------
+2026-03-30T08:49:48.587Z [INFO] ----------------------invoke appmod-validate-cves-for-java----------------------
+2026-03-30T08:49:48.590Z [INFO] [Tool.invoke]({name: appmod-validate-cves-for-java, input: {
+  "dependencies": [
+    "junit:junit:4.13.2"
+  ],
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005"
+}}).
+2026-03-30T08:49:48.591Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:49:48.593Z [INFO] Project c:\Users\000113\source\JavaLab\Lab_1203 is a maven project, try to get java version from pom.xml
+2026-03-30T08:49:48.597Z [INFO] Project java version: 25
+2026-03-30T08:49:48.598Z [INFO] Maven project detected.
+2026-03-30T08:49:48.600Z [INFO] Build tool type: mvn
+2026-03-30T08:49:48.770Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Users\\000113\\.jdk\\jdk-25\\bin",
+  "version": "25"
+}
+2026-03-30T08:49:48.794Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\000113\\.maven\\maven-3.9.11\\bin",
+  "version": "",
+  "source": "install"
+}
+2026-03-30T08:49:48.796Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\000113\\.maven\\maven-3.9.11\\bin",
+    "name": "mvn",
+    "version": "",
+    "source": "install"
+  },
+  "jdk": {
+    "path": "C:\\Users\\000113\\.jdk\\jdk-25\\bin",
+    "name": "java",
+    "version": "25"
+  },
+  "name": "Lab_1203",
+  "dir": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203"
+}
+2026-03-30T08:49:48.799Z [INFO] [Environment] Running command (Java undefined): mvn dependency:tree -B
+'mvn' ���O�����Υ~���R�O�B�i���檺�{���Χ妸�ɡC
+2026-03-30T08:49:48.898Z [ERROR] [MavenBuildTool] Failed to get dependencies from dependency tree: Error: Failed to run command: "mvn dependency:tree -B" with error code 1
+'mvn' ���O�����Υ~���R�O�B�i���檺�{���Χ妸�ɡC
+2026-03-30T08:49:48.900Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -B
+'mvn' ���O�����Υ~���R�O�B�i���檺�{���Χ妸�ɡC
+2026-03-30T08:49:49.014Z [ERROR] [MavenBuildTool] Failed to get dependencies from effective pom: Error: Failed to run command: "mvn help:effective-pom -B" with error code 1
+'mvn' ���O�����Υ~���R�O�B�i���檺�{���Χ妸�ɡC
+2026-03-30T08:49:49.018Z [INFO] [MavenBuildTool] Getting Java version of c:\Users\000113\source\JavaLab\Lab_1203 from pom.xml
+2026-03-30T08:49:49.020Z [INFO] [MavenBuildTool] Searching for pom.xml files in c:\Users\000113\source\JavaLab\Lab_1203
+2026-03-30T08:49:49.022Z [INFO] [MavenBuildTool] Getting all module coordinates of c:\Users\000113\source\JavaLab\Lab_1203
+2026-03-30T08:49:49.024Z [INFO] [MavenBuildTool] Getting effective POMs of c:\Users\000113\source\JavaLab\Lab_1203
+2026-03-30T08:49:49.026Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-88843b2e-120d-4bb1-b3e0-70d7c4d8bab6.log
+'mvn' ���O�����Υ~���R�O�B�i���檺�{���Χ妸�ɡC
+2026-03-30T08:49:49.136Z [INFO] [MavenBuildTool] Failed to get effective POMs: Error: ENOENT: no such file or directory, open 'c:\Users\000113\source\JavaLab\Lab_1203\effective-pom-88843b2e-120d-4bb1-b3e0-70d7c4d8bab6.log'
+2026-03-30T08:49:49.138Z [INFO] [MavenBuildTool] Found pom.xml files: 
+2026-03-30T08:49:49.140Z [INFO] [Environment] Running command (Java undefined): mvn help:evaluate -Dexpression=project.properties -q -DforceStdout
+'mvn' ���O�����Υ~���R�O�B�i���檺�{���Χ妸�ɡC
+2026-03-30T08:49:49.239Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -DforceStdout
+'mvn' ���O�����Υ~���R�O�B�i���檺�{���Χ妸�ɡC
+2026-03-30T08:49:49.346Z [ERROR] [MavenBuildTool] Failed to get Java version of c:\Users\000113\source\JavaLab\Lab_1203
+2026-03-30T08:49:49.377Z [INFO] [MavenBuildTool] Getting all module coordinates of c:\Users\000113\source\JavaLab\Lab_1203
+2026-03-30T08:49:49.380Z [INFO] [MavenBuildTool] Getting effective POMs of c:\Users\000113\source\JavaLab\Lab_1203
+2026-03-30T08:49:49.382Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-40f01026-20f8-489a-8dfe-b1cb6a6b2e3b.log
+'mvn' ���O�����Υ~���R�O�B�i���檺�{���Χ妸�ɡC
+2026-03-30T08:49:49.548Z [INFO] [MavenBuildTool] Failed to get effective POMs: Error: ENOENT: no such file or directory, open 'c:\Users\000113\source\JavaLab\Lab_1203\effective-pom-40f01026-20f8-489a-8dfe-b1cb6a6b2e3b.log'
+2026-03-30T08:49:49.552Z [INFO] Getting CVEs for dependencies: junit:junit:4.13.2
+2026-03-30T08:49:49.554Z [INFO] getting CVEs for dependencies:
+ - junit:junit:4.13.2...
+2026-03-30T08:49:49.556Z [INFO] getting gitHub access token...
+2026-03-30T08:50:05.309Z [INFO] Processing batch 1/1, size: 1
+2026-03-30T08:50:05.312Z [INFO] Proxy configuration: HTTPS_PROXY=(not set), HTTP_PROXY=(not set), NO_PROXY=(not set), NODE_EXTRA_CA_CERTS=(not set), vscode http.proxy=(not set), hasProxy=false
+2026-03-30T08:50:05.315Z [INFO] No proxy detected, using direct connection.
+2026-03-30T08:50:05.325Z [INFO] listing CVEs from GitHub for dependencies [
+  "junit:junit:4.13.2"
+]
+2026-03-30T08:50:05.782Z [INFO] Fetched 0 total advisories across all pages
+2026-03-30T08:50:05.784Z [INFO] grouping CVEs and finding max patched version by dep...
+2026-03-30T08:50:05.786Z [INFO] done getting 0 CVEs for 1 dependencies
+2026-03-30T08:50:05.788Z [INFO] calculating patched version by dep...
+2026-03-30T08:50:05.790Z [INFO] finished getting CVEs for dependencies.
+2026-03-30T08:50:05.791Z [INFO] Found 0 dependencies with known CVEs
+2026-03-30T08:50:05.793Z [INFO] No known CVEs that need to be fixed are found for dependencies: junit:junit:4.13.2
+2026-03-30T08:50:05.795Z [INFO] [Tool.invoke]({result: {
+  "message": "No known CVEs that need to be fixed are found for the given dependencies."
+}}).
+2026-03-30T08:50:05.797Z [INFO] ----------------------invoked appmod-validate-cves-for-java----------------------
+2026-03-30T08:51:25.489Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-30T08:51:25.490Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "summaryGenerated",
+  "message": "Java upgraded from 11 to 25 (latest LTS) in lab-1203. BUILD SUCCESS with JDK 25.0.2 + Maven 3.9.11 + maven-compiler-plugin 3.13.0. No CVEs detected. 0/0 tests (matches baseline; no test sources exist).",
+  "phase": "summarize",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:51:25.492Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T08:51:25.494Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-30T08:51:25.496Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-30T08:51:25.721Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-30T08:51:25.723Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "summaryGenerated",
+  "message": "Java upgraded from 11 to 25 (latest LTS) in lab-1203. BUILD SUCCESS with JDK 25.0.2 + Maven 3.9.11 + maven-compiler-plugin 3.13.0. No CVEs detected. 0/0 tests (matches baseline; no test sources exist).",
+  "phase": "summarize",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:51:25.725Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:51:26.054Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'summaryGenerated' reported!\nSession ID: 20260330082005,\nSession Dir: c:\\Users\\000113\\source\\JavaLab\\Lab_1203\\.github\\java-upgrade\\20260330082005"
+}}).
+2026-03-30T08:51:26.056Z [INFO] ----------------------invoked appmod-report-event----------------------
