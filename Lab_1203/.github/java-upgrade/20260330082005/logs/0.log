@@ -1,0 +1,791 @@
+2026-03-30T08:20:05.219Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-30T08:20:05.222Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "event": "precheckCompleted",
+  "phase": "precheck",
+  "status": "succeeded"
+}}).
+2026-03-30T08:20:05.226Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:20:05.239Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'precheckCompleted' reported!\nSession ID: 20260330082005,\nSession Dir: c:\\Users\\000113\\source\\JavaLab\\Lab_1203\\.github\\java-upgrade\\20260330082005"
+}}).
+2026-03-30T08:20:05.243Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-30T08:20:48.670Z [INFO] ---------------------prepare appmod-list-jdks----------------------
+2026-03-30T08:20:48.674Z [INFO] [Tool.prepareInvocation]({name: appmod-list-jdks, input: {
+  "sessionId": "20260330082005"
+}}).
+2026-03-30T08:20:48.677Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T08:20:48.682Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List jdks"
+}}).
+2026-03-30T08:20:48.686Z [INFO] ----------------------prepared appmod-list-jdks----------------------
+2026-03-30T08:20:48.763Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-03-30T08:20:48.768Z [INFO] [Tool.invoke]({name: appmod-list-jdks, input: {
+  "sessionId": "20260330082005"
+}}).
+2026-03-30T08:20:48.773Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:20:48.846Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 1.8.0_302\n   📁 Path: C:\\Program Files\\Eclipse Foundation\\jdk-8.0.302.8-hotspot\\bin\n   🏷️ Source: PATH,JAVA_HOME\n\n2. Java 11.0.16.1\n   📁 Path: C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\n   🏷️ Source: PATH\n\nTotal: 2 JDK installation(s) found"
+}}).
+2026-03-30T08:20:48.850Z [INFO] ----------------------invoked appmod-list-jdks----------------------
+2026-03-30T08:20:59.856Z [INFO] ---------------------prepare appmod-list-mavens----------------------
+2026-03-30T08:20:59.860Z [INFO] [Tool.prepareInvocation]({name: appmod-list-mavens, input: {
+  "sessionId": "20260330082005"
+}}).
+2026-03-30T08:20:59.864Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T08:20:59.869Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List mavens"
+}}).
+2026-03-30T08:20:59.872Z [INFO] ----------------------prepared appmod-list-mavens----------------------
+2026-03-30T08:21:00.079Z [INFO] ----------------------invoke appmod-list-mavens----------------------
+2026-03-30T08:21:00.083Z [INFO] [Tool.invoke]({name: appmod-list-mavens, input: {
+  "sessionId": "20260330082005"
+}}).
+2026-03-30T08:21:00.088Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:21:00.160Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following maven installations in your system:\n\n1. 📁 Path: C:\\Users\\000113\\.maven\\maven-3.9.11\\bin\n   🏷️ Source: install\n\nTotal: 1 Maven installation(s) found"
+}}).
+2026-03-30T08:21:00.164Z [INFO] ----------------------invoked appmod-list-mavens----------------------
+2026-03-30T08:22:33.167Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-30T08:22:33.171Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planInitialized",
+  "phase": "plan",
+  "sessionId": "20260330082005",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "status": "succeeded"
+}}).
+2026-03-30T08:22:33.175Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T08:22:33.178Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-30T08:22:33.181Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-30T08:22:33.289Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-30T08:22:33.293Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "planInitialized",
+  "phase": "plan",
+  "sessionId": "20260330082005",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "status": "succeeded"
+}}).
+2026-03-30T08:22:33.296Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:22:33.302Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planInitialized' reported!\nSession ID: 20260330082005,\nSession Dir: c:\\Users\\000113\\source\\JavaLab\\Lab_1203\\.github\\java-upgrade\\20260330082005"
+}}).
+2026-03-30T08:22:33.305Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-30T08:22:39.441Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-30T08:22:39.447Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "environmentAnalyzed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:22:39.468Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T08:22:39.476Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-30T08:22:39.481Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-30T08:22:39.748Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-30T08:22:39.756Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "environmentAnalyzed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:22:39.761Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:22:39.772Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'environmentAnalyzed' reported!\nSession ID: 20260330082005,\nSession Dir: c:\\Users\\000113\\source\\JavaLab\\Lab_1203\\.github\\java-upgrade\\20260330082005"
+}}).
+2026-03-30T08:22:39.777Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-30T08:25:12.783Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-30T08:25:12.791Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "dependenciesAnalyzed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:25:12.795Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T08:25:12.799Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-30T08:25:12.804Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-30T08:25:12.923Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-30T08:25:12.926Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "dependenciesAnalyzed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:25:12.930Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:25:12.935Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'dependenciesAnalyzed' reported!\nSession ID: 20260330082005,\nSession Dir: c:\\Users\\000113\\source\\JavaLab\\Lab_1203\\.github\\java-upgrade\\20260330082005"
+}}).
+2026-03-30T08:25:12.938Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-30T08:25:17.547Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-30T08:25:17.552Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "upgradePathDesigned",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:25:17.556Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T08:25:17.559Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-30T08:25:17.563Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-30T08:25:17.672Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-30T08:25:17.675Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "upgradePathDesigned",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:25:17.678Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:25:17.681Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradePathDesigned' reported!\nSession ID: 20260330082005,\nSession Dir: c:\\Users\\000113\\source\\JavaLab\\Lab_1203\\.github\\java-upgrade\\20260330082005"
+}}).
+2026-03-30T08:25:17.685Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-30T08:25:22.508Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-30T08:25:22.511Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planReviewed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:25:22.513Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T08:25:22.518Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-30T08:25:22.522Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-30T08:25:22.655Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-30T08:25:22.659Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "planReviewed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:25:22.662Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:25:22.667Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planReviewed' reported!\nSession ID: 20260330082005,\nSession Dir: c:\\Users\\000113\\source\\JavaLab\\Lab_1203\\.github\\java-upgrade\\20260330082005"
+}}).
+2026-03-30T08:25:22.672Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-30T08:25:31.263Z [INFO] ---------------------prepare appmod-confirm-upgrade-plan----------------------
+2026-03-30T08:25:31.265Z [INFO] [Tool.prepareInvocation]({name: appmod-confirm-upgrade-plan, input: {
+  "sessionId": "20260330082005"
+}}).
+2026-03-30T08:25:31.267Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T08:25:31.271Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Review [upgrade plan](file:///c:/Users/000113/source/JavaLab/Lab_1203/.github/java-upgrade/20260330082005/plan.md)",
+  "confirmationMessages": {
+    "title": "Plan generated",
+    "message": "Please review the generated plan and make any necessary adjustments before proceeding. You can modify the generated [`plan.md`](file:///c:/Users/000113/source/JavaLab/Lab_1203/.github/java-upgrade/20260330082005/plan.md) directly."
+  }
+}}).
+2026-03-30T08:25:31.273Z [INFO] ----------------------prepared appmod-confirm-upgrade-plan----------------------
+2026-03-30T08:26:42.414Z [INFO] ----------------------invoke appmod-confirm-upgrade-plan----------------------
+2026-03-30T08:26:42.417Z [INFO] [Tool.invoke]({name: appmod-confirm-upgrade-plan, input: {
+  "sessionId": "20260330082005"
+}}).
+2026-03-30T08:26:42.420Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:26:42.423Z [INFO] Upgrade plan confirmed successfully.
+2026-03-30T08:26:42.431Z [INFO] [Tool.invoke]({result: {
+  "message": "Generated plan is reviewed and confirmed by the user! the upgrade process will start now and be tracked in markdown file: c:\\Users\\000113\\source\\JavaLab\\Lab_1203\\.github\\java-upgrade\\20260330082005\\progress.md."
+}}).
+2026-03-30T08:26:42.434Z [INFO] ----------------------invoked appmod-confirm-upgrade-plan----------------------
+2026-03-30T08:26:49.962Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-30T08:26:49.965Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planConfirmed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:26:49.970Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T08:26:49.981Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-30T08:26:49.984Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-30T08:26:50.214Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-30T08:26:50.218Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "planConfirmed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:26:50.221Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:26:50.225Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planConfirmed' reported!\nSession ID: 20260330082005,\nSession Dir: c:\\Users\\000113\\source\\JavaLab\\Lab_1203\\.github\\java-upgrade\\20260330082005"
+}}).
+2026-03-30T08:26:50.228Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-30T08:28:06.978Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-30T08:28:06.980Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planExecutionStarted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:28:06.982Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T08:28:06.983Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-30T08:28:06.985Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-30T08:28:07.043Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-30T08:28:07.044Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "planExecutionStarted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:28:07.045Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:28:07.298Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planExecutionStarted' reported!\nSession ID: 20260330082005,\nSession Dir: c:\\Users\\000113\\source\\JavaLab\\Lab_1203\\.github\\java-upgrade\\20260330082005"
+}}).
+2026-03-30T08:28:07.300Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-30T08:28:22.703Z [INFO] ---------------------prepare appmod-install-jdk----------------------
+2026-03-30T08:28:22.705Z [INFO] [Tool.prepareInvocation]({name: appmod-install-jdk, input: {
+  "sessionId": "20260330082005",
+  "version": "25"
+}}).
+2026-03-30T08:28:22.706Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T08:28:22.800Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Download and install JDK",
+  "confirmationMessages": {
+    "title": "Download and install JDK",
+    "message": "\nThis tool will download and install JDK 25 from Adoptium with below settings.\n- **Version**: 25\n- **Vendor**: Adoptium\n- **Url**: https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-jdk_x64_windows_hotspot_25.0.2_10.zip\n- **Destination**: `C:\\Users\\000113\\.jdk`\n- **Checksum**: SHA256: 06ac5f5444a1269dd11d11cbb7ab6ebaecedc60dc1caca82cdb56f29100b7b8c\n- **Signature**: https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.2%2B10/OpenJDK25U-jdk_x64_windows_hotspot_25.0.2_10.zip.sig\n- **Public Key**: https://packages.adoptium.net/artifactory/api/gpg/key/public\n"
+  }
+}}).
+2026-03-30T08:28:22.802Z [INFO] ----------------------prepared appmod-install-jdk----------------------
+2026-03-30T08:28:24.621Z [INFO] ----------------------invoke appmod-install-jdk----------------------
+2026-03-30T08:28:24.623Z [INFO] [Tool.invoke]({name: appmod-install-jdk, input: {
+  "sessionId": "20260330082005",
+  "version": "25"
+}}).
+2026-03-30T08:28:24.625Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:29:06.512Z [INFO] [Tool.invoke]({result: {
+  "result": {
+    "name": "java",
+    "path": "C:\\Users\\000113\\.jdk\\jdk-25\\bin",
+    "version": "25"
+  },
+  "message": "JDK 25 is installed at C:\\Users\\000113\\.jdk\\jdk-25\\bin",
+  "telemetry": {
+    "tool": "JDK",
+    "version": "25"
+  }
+}}).
+2026-03-30T08:29:06.514Z [INFO] ----------------------invoked appmod-install-jdk----------------------
+2026-03-30T08:29:39.282Z [INFO] ---------------------prepare appmod-list-jdks----------------------
+2026-03-30T08:29:39.284Z [INFO] [Tool.prepareInvocation]({name: appmod-list-jdks, input: {
+  "sessionId": "20260330082005"
+}}).
+2026-03-30T08:29:39.286Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T08:29:39.288Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List jdks"
+}}).
+2026-03-30T08:29:39.289Z [INFO] ----------------------prepared appmod-list-jdks----------------------
+2026-03-30T08:29:39.331Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-03-30T08:29:39.333Z [INFO] [Tool.invoke]({name: appmod-list-jdks, input: {
+  "sessionId": "20260330082005"
+}}).
+2026-03-30T08:29:39.334Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:29:39.475Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 1.8.0_302\n   📁 Path: C:\\Program Files\\Eclipse Foundation\\jdk-8.0.302.8-hotspot\\bin\n   🏷️ Source: PATH,JAVA_HOME\n\n2. Java 11.0.16.1\n   📁 Path: C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin\n   🏷️ Source: PATH\n\n3. Java 25.0.2\n   📁 Path: C:\\Users\\000113\\.jdk\\jdk-25\\bin\n   🏷️ Source: install\n\nTotal: 3 JDK installation(s) found"
+}}).
+2026-03-30T08:29:39.477Z [INFO] ----------------------invoked appmod-list-jdks----------------------
+2026-03-30T08:29:56.797Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-30T08:29:56.799Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "environmentSetup",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded",
+  "details": {
+    "jdkPath": "C:\\Users\\000113\\.jdk\\jdk-25\\bin",
+    "buildToolPath": "C:\\Users\\000113\\.maven\\maven-3.9.11\\bin\\mvn.cmd"
+  }
+}}).
+2026-03-30T08:29:56.804Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T08:29:56.807Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-30T08:29:56.809Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-30T08:29:57.532Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-30T08:29:57.536Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "environmentSetup",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded",
+  "details": {
+    "jdkPath": "C:\\Users\\000113\\.jdk\\jdk-25\\bin",
+    "buildToolPath": "C:\\Users\\000113\\.maven\\maven-3.9.11\\bin\\mvn.cmd"
+  }
+}}).
+2026-03-30T08:29:57.538Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:29:57.541Z [INFO] Project c:\Users\000113\source\JavaLab\Lab_1203 is a maven project, try to get java version from pom.xml
+2026-03-30T08:29:57.546Z [INFO] Project java version: 11
+2026-03-30T08:29:57.551Z [INFO] Maven project detected.
+2026-03-30T08:29:57.555Z [INFO] Build tool type: mvn
+2026-03-30T08:29:57.559Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Users\\000113\\.jdk\\jdk-25\\bin",
+  "version": "11"
+}
+2026-03-30T08:29:57.562Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\000113\\.maven\\maven-3.9.11\\bin\\mvn.cmd\\bin",
+  "version": ""
+}
+2026-03-30T08:29:57.567Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\000113\\.maven\\maven-3.9.11\\bin\\mvn.cmd\\bin",
+    "name": "mvn",
+    "version": ""
+  },
+  "jdk": {
+    "path": "C:\\Users\\000113\\.jdk\\jdk-25\\bin",
+    "name": "java",
+    "version": "11"
+  },
+  "name": "Lab_1203",
+  "dir": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203"
+}
+2026-03-30T08:29:58.620Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'environmentSetup' reported!\nSession ID: 20260330082005,\nSession Dir: c:\\Users\\000113\\source\\JavaLab\\Lab_1203\\.github\\java-upgrade\\20260330082005"
+}}).
+2026-03-30T08:29:58.622Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-30T08:32:24.395Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-30T08:32:24.399Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "buildCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:32:24.404Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T08:32:24.406Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-30T08:32:24.409Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-30T08:32:24.541Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-30T08:32:24.543Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "buildCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:32:24.544Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:32:24.548Z [INFO] Project c:\Users\000113\source\JavaLab\Lab_1203 is a maven project, try to get java version from pom.xml
+2026-03-30T08:32:24.551Z [INFO] Project java version: 11
+2026-03-30T08:32:24.553Z [INFO] Maven project detected.
+2026-03-30T08:32:24.555Z [INFO] Build tool type: mvn
+2026-03-30T08:32:24.890Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin",
+  "version": "11"
+}
+2026-03-30T08:32:24.962Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\000113\\.maven\\maven-3.9.11\\bin",
+  "version": "",
+  "source": "install"
+}
+2026-03-30T08:32:24.966Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\000113\\.maven\\maven-3.9.11\\bin",
+    "name": "mvn",
+    "version": "",
+    "source": "install"
+  },
+  "jdk": {
+    "path": "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin",
+    "name": "java",
+    "version": "11"
+  },
+  "name": "Lab_1203",
+  "dir": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203"
+}
+2026-03-30T08:32:24.968Z [INFO] [MavenBuildTool] Getting all module coordinates of c:\Users\000113\source\JavaLab\Lab_1203
+2026-03-30T08:32:24.970Z [INFO] [MavenBuildTool] Getting effective POMs of c:\Users\000113\source\JavaLab\Lab_1203
+2026-03-30T08:32:24.973Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-6a96e956-39fa-4ac2-8d21-94a00ca0d054.log
+'mvn' ���O�����Υ~���R�O�B�i���檺�{���Χ妸�ɡC
+2026-03-30T08:32:25.118Z [INFO] [MavenBuildTool] Failed to get effective POMs: Error: ENOENT: no such file or directory, open 'c:\Users\000113\source\JavaLab\Lab_1203\effective-pom-6a96e956-39fa-4ac2-8d21-94a00ca0d054.log'
+2026-03-30T08:32:25.120Z [INFO] [BaseBuildTool] Found 0 modules: 
+2026-03-30T08:32:25.123Z [INFO] [BaseBuildTool] Finish counting Java and class files
+2026-03-30T08:32:25.126Z [INFO] [MavenBuildTool] Cleaning c:\Users\000113\source\JavaLab\Lab_1203 using Maven
+2026-03-30T08:32:25.131Z [INFO] [Environment] Running command (Java undefined): mvn clean -q -B -fn
+'mvn' ���O�����Υ~���R�O�B�i���檺�{���Χ妸�ɡC
+2026-03-30T08:32:25.272Z [INFO] [MavenBuildTool] Getting all module coordinates of c:\Users\000113\source\JavaLab\Lab_1203
+2026-03-30T08:32:25.274Z [INFO] [MavenBuildTool] Getting effective POMs of c:\Users\000113\source\JavaLab\Lab_1203
+2026-03-30T08:32:25.277Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-60f155c6-f71f-43f4-a632-9c572e8ceb49.log
+'mvn' ���O�����Υ~���R�O�B�i���檺�{���Χ妸�ɡC
+2026-03-30T08:32:25.443Z [INFO] [MavenBuildTool] Failed to get effective POMs: Error: ENOENT: no such file or directory, open 'c:\Users\000113\source\JavaLab\Lab_1203\effective-pom-60f155c6-f71f-43f4-a632-9c572e8ceb49.log'
+2026-03-30T08:32:25.450Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'buildCompleted' reported!\nSession ID: 20260330082005,\nSession Dir: c:\\Users\\000113\\source\\JavaLab\\Lab_1203\\.github\\java-upgrade\\20260330082005"
+}}).
+2026-03-30T08:32:25.453Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-30T08:32:32.851Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-30T08:32:32.854Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "testCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:32:32.857Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T08:32:32.860Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-30T08:32:32.865Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-30T08:32:33.032Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-30T08:32:33.036Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "testCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:32:33.039Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:32:33.042Z [INFO] Project c:\Users\000113\source\JavaLab\Lab_1203 is a maven project, try to get java version from pom.xml
+2026-03-30T08:32:33.050Z [INFO] Project java version: 11
+2026-03-30T08:32:33.053Z [INFO] Maven project detected.
+2026-03-30T08:32:33.056Z [INFO] Build tool type: mvn
+2026-03-30T08:32:33.464Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin",
+  "version": "11"
+}
+2026-03-30T08:32:33.519Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\000113\\.maven\\maven-3.9.11\\bin",
+  "version": "",
+  "source": "install"
+}
+2026-03-30T08:32:33.524Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\000113\\.maven\\maven-3.9.11\\bin",
+    "name": "mvn",
+    "version": "",
+    "source": "install"
+  },
+  "jdk": {
+    "path": "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin",
+    "name": "java",
+    "version": "11"
+  },
+  "name": "Lab_1203",
+  "dir": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203"
+}
+2026-03-30T08:32:33.526Z [INFO] [BaseBuildTool] Gathering test results...
+2026-03-30T08:32:33.568Z [INFO] [BaseBuildTool] Summarizing surefire reports.
+2026-03-30T08:32:33.572Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'testCompleted' reported!\nSession ID: 20260330082005,\nSession Dir: c:\\Users\\000113\\source\\JavaLab\\Lab_1203\\.github\\java-upgrade\\20260330082005"
+}}).
+2026-03-30T08:32:33.575Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-30T08:32:47.820Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-30T08:32:47.822Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "baselineSetup",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:32:47.824Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T08:32:47.827Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-30T08:32:47.838Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-30T08:32:48.055Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-30T08:32:48.057Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "baselineSetup",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:32:48.059Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:32:48.067Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'baselineSetup' reported!\nSession ID: 20260330082005,\nSession Dir: c:\\Users\\000113\\source\\JavaLab\\Lab_1203\\.github\\java-upgrade\\20260330082005"
+}}).
+2026-03-30T08:32:48.070Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-30T08:32:52.480Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-30T08:32:52.482Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Upgrade to Java 25"
+  },
+  "event": "upgradeStepStarted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:32:52.484Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T08:32:52.486Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-30T08:32:52.488Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-30T08:32:52.581Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-30T08:32:52.583Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Upgrade to Java 25"
+  },
+  "event": "upgradeStepStarted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:32:52.586Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:32:52.592Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepStarted' reported!\nSession ID: 20260330082005,\nSession Dir: c:\\Users\\000113\\source\\JavaLab\\Lab_1203\\.github\\java-upgrade\\20260330082005"
+}}).
+2026-03-30T08:32:52.596Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-30T08:34:21.989Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-30T08:34:21.993Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "buildCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:34:21.995Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T08:34:21.997Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-30T08:34:21.999Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-30T08:34:22.062Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-30T08:34:22.064Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "buildCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:34:22.065Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:34:22.066Z [INFO] Project c:\Users\000113\source\JavaLab\Lab_1203 is a maven project, try to get java version from pom.xml
+2026-03-30T08:34:22.068Z [INFO] Project java version: 25
+2026-03-30T08:34:22.070Z [INFO] Maven project detected.
+2026-03-30T08:34:22.072Z [INFO] Build tool type: mvn
+2026-03-30T08:34:22.190Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Users\\000113\\.jdk\\jdk-25\\bin",
+  "version": "25"
+}
+2026-03-30T08:34:22.211Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\000113\\.maven\\maven-3.9.11\\bin",
+  "version": "",
+  "source": "install"
+}
+2026-03-30T08:34:22.213Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\000113\\.maven\\maven-3.9.11\\bin",
+    "name": "mvn",
+    "version": "",
+    "source": "install"
+  },
+  "jdk": {
+    "path": "C:\\Users\\000113\\.jdk\\jdk-25\\bin",
+    "name": "java",
+    "version": "25"
+  },
+  "name": "Lab_1203",
+  "dir": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203"
+}
+2026-03-30T08:34:22.215Z [INFO] [MavenBuildTool] Getting all module coordinates of c:\Users\000113\source\JavaLab\Lab_1203
+2026-03-30T08:34:22.216Z [INFO] [MavenBuildTool] Getting effective POMs of c:\Users\000113\source\JavaLab\Lab_1203
+2026-03-30T08:34:22.218Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-bdac9a6e-8b12-4d09-af1a-f6130b842b75.log
+'mvn' ���O�����Υ~���R�O�B�i���檺�{���Χ妸�ɡC
+2026-03-30T08:34:22.315Z [INFO] [MavenBuildTool] Failed to get effective POMs: Error: ENOENT: no such file or directory, open 'c:\Users\000113\source\JavaLab\Lab_1203\effective-pom-bdac9a6e-8b12-4d09-af1a-f6130b842b75.log'
+2026-03-30T08:34:22.318Z [INFO] [BaseBuildTool] Found 0 modules: 
+2026-03-30T08:34:22.319Z [INFO] [BaseBuildTool] Finish counting Java and class files
+2026-03-30T08:34:22.321Z [INFO] [MavenBuildTool] Cleaning c:\Users\000113\source\JavaLab\Lab_1203 using Maven
+2026-03-30T08:34:22.323Z [INFO] [Environment] Running command (Java undefined): mvn clean -q -B -fn
+'mvn' ���O�����Υ~���R�O�B�i���檺�{���Χ妸�ɡC
+2026-03-30T08:34:22.433Z [INFO] [MavenBuildTool] Getting all module coordinates of c:\Users\000113\source\JavaLab\Lab_1203
+2026-03-30T08:34:22.434Z [INFO] [MavenBuildTool] Getting effective POMs of c:\Users\000113\source\JavaLab\Lab_1203
+2026-03-30T08:34:22.436Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-9c3244bb-9b97-4bb2-b235-f4cf20bad210.log
+'mvn' ���O�����Υ~���R�O�B�i���檺�{���Χ妸�ɡC
+2026-03-30T08:34:22.527Z [INFO] [MavenBuildTool] Failed to get effective POMs: Error: ENOENT: no such file or directory, open 'c:\Users\000113\source\JavaLab\Lab_1203\effective-pom-9c3244bb-9b97-4bb2-b235-f4cf20bad210.log'
+2026-03-30T08:34:22.530Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'buildCompleted' reported!\nSession ID: 20260330082005,\nSession Dir: c:\\Users\\000113\\source\\JavaLab\\Lab_1203\\.github\\java-upgrade\\20260330082005"
+}}).
+2026-03-30T08:34:22.532Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-30T08:34:39.106Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-30T08:34:39.108Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Upgrade to Java 25",
+    "commitId": "0502c76"
+  },
+  "event": "upgradeStepCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:34:39.111Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T08:34:39.115Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-30T08:34:39.117Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-30T08:34:39.283Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-30T08:34:39.286Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Upgrade to Java 25",
+    "commitId": "0502c76"
+  },
+  "event": "upgradeStepCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:34:39.288Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:34:39.726Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepCompleted' reported!\nSession ID: 20260330082005,\nSession Dir: c:\\Users\\000113\\source\\JavaLab\\Lab_1203\\.github\\java-upgrade\\20260330082005"
+}}).
+2026-03-30T08:34:39.729Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-30T08:35:16.686Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-30T08:35:16.689Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "buildCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:35:16.692Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T08:35:16.696Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-30T08:35:16.698Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-30T08:35:16.889Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-30T08:35:16.891Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "buildCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:35:16.895Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:35:16.898Z [INFO] Project c:\Users\000113\source\JavaLab\Lab_1203 is a maven project, try to get java version from pom.xml
+2026-03-30T08:35:16.902Z [INFO] Project java version: 25
+2026-03-30T08:35:16.905Z [INFO] Maven project detected.
+2026-03-30T08:35:16.907Z [INFO] Build tool type: mvn
+2026-03-30T08:35:17.143Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Users\\000113\\.jdk\\jdk-25\\bin",
+  "version": "25"
+}
+2026-03-30T08:35:17.191Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\000113\\.maven\\maven-3.9.11\\bin",
+  "version": "",
+  "source": "install"
+}
+2026-03-30T08:35:17.195Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\000113\\.maven\\maven-3.9.11\\bin",
+    "name": "mvn",
+    "version": "",
+    "source": "install"
+  },
+  "jdk": {
+    "path": "C:\\Users\\000113\\.jdk\\jdk-25\\bin",
+    "name": "java",
+    "version": "25"
+  },
+  "name": "Lab_1203",
+  "dir": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203"
+}
+2026-03-30T08:35:17.198Z [INFO] [MavenBuildTool] Getting all module coordinates of c:\Users\000113\source\JavaLab\Lab_1203
+2026-03-30T08:35:17.200Z [INFO] [MavenBuildTool] Getting effective POMs of c:\Users\000113\source\JavaLab\Lab_1203
+2026-03-30T08:35:17.203Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-5ca8169e-c04b-40e8-ab7b-6b5aad41b57a.log
+'mvn' ���O�����Υ~���R�O�B�i���檺�{���Χ妸�ɡC
+2026-03-30T08:35:17.418Z [INFO] [MavenBuildTool] Failed to get effective POMs: Error: ENOENT: no such file or directory, open 'c:\Users\000113\source\JavaLab\Lab_1203\effective-pom-5ca8169e-c04b-40e8-ab7b-6b5aad41b57a.log'
+2026-03-30T08:35:17.421Z [INFO] [BaseBuildTool] Found 0 modules: 
+2026-03-30T08:35:17.423Z [INFO] [BaseBuildTool] Finish counting Java and class files
+2026-03-30T08:35:17.428Z [INFO] [MavenBuildTool] Cleaning c:\Users\000113\source\JavaLab\Lab_1203 using Maven
+2026-03-30T08:35:17.432Z [INFO] [Environment] Running command (Java undefined): mvn clean -q -B -fn
+'mvn' ���O�����Υ~���R�O�B�i���檺�{���Χ妸�ɡC
+2026-03-30T08:35:17.637Z [INFO] [MavenBuildTool] Getting all module coordinates of c:\Users\000113\source\JavaLab\Lab_1203
+2026-03-30T08:35:17.640Z [INFO] [MavenBuildTool] Getting effective POMs of c:\Users\000113\source\JavaLab\Lab_1203
+2026-03-30T08:35:17.644Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-5a2314fc-e5cf-4346-905c-cb9222a9a4cd.log
+'mvn' ���O�����Υ~���R�O�B�i���檺�{���Χ妸�ɡC
+2026-03-30T08:35:17.800Z [INFO] [MavenBuildTool] Failed to get effective POMs: Error: ENOENT: no such file or directory, open 'c:\Users\000113\source\JavaLab\Lab_1203\effective-pom-5a2314fc-e5cf-4346-905c-cb9222a9a4cd.log'
+2026-03-30T08:35:17.804Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'buildCompleted' reported!\nSession ID: 20260330082005,\nSession Dir: c:\\Users\\000113\\source\\JavaLab\\Lab_1203\\.github\\java-upgrade\\20260330082005"
+}}).
+2026-03-30T08:35:17.807Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-03-30T08:35:27.169Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-03-30T08:35:27.171Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "testCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:35:27.173Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-03-30T08:35:27.177Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-03-30T08:35:27.180Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-03-30T08:35:27.305Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-03-30T08:35:27.307Z [INFO] [Tool.invoke]({name: appmod-report-event, input: {
+  "event": "testCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203",
+  "sessionId": "20260330082005",
+  "status": "succeeded"
+}}).
+2026-03-30T08:35:27.313Z [INFO] [Tool.invoke] do invoke.
+2026-03-30T08:35:27.316Z [INFO] Project c:\Users\000113\source\JavaLab\Lab_1203 is a maven project, try to get java version from pom.xml
+2026-03-30T08:35:27.321Z [INFO] Project java version: 25
+2026-03-30T08:35:27.323Z [INFO] Maven project detected.
+2026-03-30T08:35:27.325Z [INFO] Build tool type: mvn
+2026-03-30T08:35:27.567Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Users\\000113\\.jdk\\jdk-25\\bin",
+  "version": "25"
+}
+2026-03-30T08:35:27.635Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\000113\\.maven\\maven-3.9.11\\bin",
+  "version": "",
+  "source": "install"
+}
+2026-03-30T08:35:27.637Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\000113\\.maven\\maven-3.9.11\\bin",
+    "name": "mvn",
+    "version": "",
+    "source": "install"
+  },
+  "jdk": {
+    "path": "C:\\Users\\000113\\.jdk\\jdk-25\\bin",
+    "name": "java",
+    "version": "25"
+  },
+  "name": "Lab_1203",
+  "dir": "c:\\Users\\000113\\source\\JavaLab\\Lab_1203"
+}
+2026-03-30T08:35:27.640Z [INFO] [BaseBuildTool] Gathering test results...
+2026-03-30T08:35:27.669Z [INFO] [BaseBuildTool] Summarizing surefire reports.
+2026-03-30T08:35:27.673Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'testCompleted' reported!\nSession ID: 20260330082005,\nSession Dir: c:\\Users\\000113\\source\\JavaLab\\Lab_1203\\.github\\java-upgrade\\20260330082005"
+}}).
+2026-03-30T08:35:27.676Z [INFO] ----------------------invoked appmod-report-event----------------------
